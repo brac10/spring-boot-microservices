@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DbServiceApplication<db-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.bracomorg.stock.dbservice.DbServiceApplication",
+            "projectName": "db-service",
+            "args": ""
+        }
+    ]
+}
