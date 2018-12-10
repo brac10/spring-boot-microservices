@@ -9,6 +9,26 @@
             "mainClass": "com.bracomorg.stock.dbservice.DbServiceApplication",
             "projectName": "db-service",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServiceApplication<eureka-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.bracomorg.stock.eurekaservice.EurekaServiceApplication",
+            "projectName": "eureka-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-StockServiceApplication<stock-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.bracomorg.stock.stockservice.StockServiceApplication",
+            "projectName": "stock-service",
+            "args": ""
         }
     ]
 }
