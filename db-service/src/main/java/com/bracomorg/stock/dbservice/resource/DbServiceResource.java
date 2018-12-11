@@ -44,14 +44,12 @@ public class DbServiceResource {
         return getQuotesByUserName(username);
     }
 
-
     private List<String> getQuotesByUserName(@PathVariable("username") String username) {
         return quotesRepository.findByUserName(username)
                 .stream()
                 .map(Quote::getQuote)
                 .collect(Collectors.toList());
     }
-
 
 
 }
