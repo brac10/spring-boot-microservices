@@ -13,4 +13,4 @@ Architechture
 
 https://start.spring.io/
  
-![ScreenShot](SpringInitializer.png "Tooling")
+![ScreenShot](SpringInitializer.jpg "Tooling")
